@@ -1,25 +1,21 @@
 # esx_license
+老弟办证吗？
 
-## Download & Installation
+## 下载 & 安装
 
-### Using [fvm](https://github.com/qlaffont/fvm-installer)
-```
-fvm install --save --folder=esx esx-org/esx_license
-```
-
-### Using Git
+### 使用 Git
 ```
 cd resources
 git clone https://github.com/ESX-Org/esx_license [esx]/esx_license
 ```
 
-### Manually
-- Download https://github.com/ESX-Org/esx_license/archive/master.zip
-- Put it in the `[esx]` directory
+### 手动
+- 下载 https://github.com/ESX-Org/esx_license/archive/master.zip
+- 解压至 `[esx]` 目录
 
-## Installation
-- Import `esx_license.sql` in your database
-- Add this to your `server.cfg`:
+## 安装
+- 将 `esx_license.sql` 导入至你的数据库
+- 添加下面这段设置至 `server.cfg`:
 
 ```
 start esx_license

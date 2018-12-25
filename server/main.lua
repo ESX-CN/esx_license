@@ -40,7 +40,9 @@ function GetLicense(type, cb)
 		}, function(result)
 			local data = {
 				type  = type,
-				label = result[1].label
+				label = result[1].label,
+				label_cn = result[1].label_cn,
+				label_zh = result[1].label_zh
 			}
 
 			cb(data)
@@ -70,7 +72,9 @@ function GetLicenses(target, cb)
 
 								table.insert(licenses, {
 									type  = type,
-									label = result2[1].label
+									label = result2[1].label,
+									label_cn = result2[1].label_cn,
+									label_zh = result2[1].label_zh
 								})
 								cb()
 							end
@@ -117,7 +121,9 @@ function GetLicensesList(cb)
 			for i=1, #result, 1 do
 				table.insert(licenses, {
 					type  = result[i].type,
-					label = result[i].label
+					label = result[i].label,
+					label_cn = result[1].label_cn,
+					label_zh = result[1].label_zh
 				})
 			end
 			cb(licenses)
