@@ -6,11 +6,11 @@
 ### 使用 Git
 ```
 cd resources
-git clone https://github.com/ESX-Org/esx_license [esx]/esx_license
+git clone https://github.com/ESX-CN/esx_license [esx]/esx_license
 ```
 
 ### 手动
-- 下载 https://github.com/ESX-Org/esx_license/archive/master.zip
+- 下载 https://github.com/ESX-CN/esx_license/archive/master.zip
 - 解压至 `[esx]` 目录
 
 ## 安装
