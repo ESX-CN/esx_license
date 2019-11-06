@@ -35,8 +35,8 @@ function GetLicense(type, cb)
 		local data = {
 			type  = type,
 			label = result[1].label,
-			label_cn = result[1].label_cn,
-			label_zh = result[1].label_zh
+			label_sc = result[1].label_sc,
+			label_tc = result[1].label_tc
 		}
 
 		cb(data)
@@ -62,8 +62,8 @@ function GetLicenses(target, cb)
 						table.insert(licenses, {
 							type  = type,
 							label = result2[1].label,
-							label_cn = result2[1].label_cn,
-							label_zh = result2[1].label_zh
+							label_sc = result2[1].label_sc,
+							label_tc = result2[1].label_tc
 						})
 
 						cb()
@@ -108,8 +108,8 @@ function GetLicensesList(cb)
 			table.insert(licenses, {
 				type  = result[i].type,
 				label = result[i].label,
-				label_cn = result[i].label_cn,
-				label_zh = result[i].label_zh
+				label_sc = result[i].label_sc,
+				label_tc = result[i].label_tc
 			})
 		end
 

@@ -3,8 +3,8 @@ USE `essentialmode`;
 CREATE TABLE `licenses` (
 	`type` varchar(60) NOT NULL,
 	`label` varchar(60) NOT NULL,
-	`label_cn` varchar(120) NOT NULL,
-	`label_zh` varchar(120) NOT NULL,
+	`label_sc` varchar(120) NOT NULL,
+	`label_tc` varchar(120) NOT NULL,
 
 	PRIMARY KEY (`type`)
 );
